@@ -1,0 +1,32 @@
+---
+engines:
+  duplication:
+    enabled: true
+    config:
+      languages:
+      - ruby
+  fixme:
+    enabled: true
+  rubocop:
+    enabled: true
+  flog:
+    enabled: true
+    config:
+      score_threshold: 100.0
+  reek:
+    enabled: true
+    checks:
+      IrresponsibleModule:
+        enabled: false
+
+ratings:
+  paths:
+  - 'lib/**/*.rb'
+
+exclude_paths:
+- bin/
+- dynamic_struct.gemspec
+- Gemfile
+- Gemfile.lock
+- Rakefile
+- README.md
