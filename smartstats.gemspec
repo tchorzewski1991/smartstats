@@ -7,13 +7,9 @@ Gem::Specification.new do |spec|
   spec.version       = SmartStats::VERSION
   spec.authors       = %w[tchorzewski1991]
   spec.email         = %w[tchorzewski.rafal@gmail.com]
-
-  spec.summary       = %(Short summary)
-  spec.description   = %(Short description)
-
-  # Specify which files should be added to the gem when it is released.
-  # The `git ls-files -z` loads the files in the RubyGem that have been added
-  # into git.
+  spec.summary       = %(SmartStats is a simple .log files analyzer.)
+  spec.description   = %(SmartStats is a simple .log files analyzer.)
+  spec.licenses      = %w(MIT)
   spec.files         = Dir.chdir(File.expand_path(__dir__)) do
     `git ls-files -z`.split("\x0").reject do |f|
       f.match(%r{^(test|spec|features)/})
@@ -22,6 +18,7 @@ Gem::Specification.new do |spec|
   spec.bindir        = 'exe'
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = %w[lib]
+  spec.required_ruby_version = '>= 2.5.0'
 
   spec.add_development_dependency 'bundler', '~> 2.0'
   spec.add_development_dependency 'pry', '~> 0.12.2'
