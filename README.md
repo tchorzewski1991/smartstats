@@ -1,4 +1,4 @@
-<a href="https://codeclimate.com/github/tchorzewski1991/smartstats/maintainability"><img src="https://api.codeclimate.com/v1/badges/2ade2348dc8de81b93f6/maintainability" /></a>
+<a href="https://codeclimate.com/github/tchorzewski1991/smartstats/maintainability"><img src="https://api.codeclimate.com/v1/badges/2ade2348dc8de81b93f6/maintainability" /></a> [![Build Status](https://travis-ci.org/tchorzewski1991/smartstats.svg?branch=master)](https://travis-ci.org/tchorzewski1991/smartstats)
 
 # SmartStats
 
