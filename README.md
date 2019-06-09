@@ -15,24 +15,37 @@ Features included:
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Start with cloning this repo into location you like:
 
-```ruby
-gem 'smartstats'
+`git clone https://github.com/tchorzewski1991/smartstats`
+
+Ensure you use version of [ruby](https://github.com/ruby/ruby) which meets minimal requirements. It should be at
+least `ruby-2.5.0`. This may be easily checked by any ruby version manager like
+[rvm](https://rvm.io/).
+
+```
+rvm list rubies
+=* ruby-2.5.0 [ x86_64 ]
+   ruby-2.5.1 [ x86_64 ]
+   ruby-2.6.0 [ x86_64 ]
 ```
 
-And then execute:
+The easiest way to install `smartstats` locally will be through usage of [bundler](https://bundler.io/) gem.
 
-    $ bundle
+Execute the following commands in order to install bundler:
 
-Or install it yourself as:
+    $ gem install bundler
+    $ bundle install
 
-    $ gem install smartstats
+
+The last step refers to make `smartstats` executable useful. We can achieve this on two ways:
+- install `smartstats` gem locally with [rake](https://github.com/ruby/rake) by invoking `rake install`
+- use [bundler](https://bundler.io/) with `bundle exec exe/smartstats`
 
 ## Usage
 
-SmartStats provide simple and clean CLI for better experience when parsing your .log files. To see all possible
-commands run simple:
+Installing `smartstats` gem locally is preferable. The `smartstats` gem provide simple and clean CLI
+for better experience when parsing your .log files. To see all possible commands run simple:
 
 ```
 smartstats
