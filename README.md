@@ -30,9 +30,9 @@ rvm list rubies
    ruby-2.6.0 [ x86_64 ]
 ```
 
-The easiest way to install `smartstats` locally will be through usage of [bundler](https://bundler.io/) gem.
+The easiest way to install `smartstats` locally will be through use of [bundler](https://bundler.io/).
 
-Execute the following commands in order to install bundler:
+Execute the following commands in order to install `bundler` and all `smartstats` dependencies:
 
     $ gem install bundler
     $ bundle install
