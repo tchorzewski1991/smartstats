@@ -4,7 +4,7 @@ module SmartStats
       title: 'Results',
       headings: %w[Uri Hits],
       rows: [],
-      style: { all_separators: true },
+      style: { all_separators: true }
     }.freeze
 
     attr_reader :title, :headings, :rows, :style

@@ -9,6 +9,9 @@ engines:
     enabled: true
   rubocop:
     enabled: true
+    checks:
+      Rubocop/Layout/FirstParameterIndentation:
+        enabled: false
   flog:
     enabled: true
     config:
@@ -18,6 +21,10 @@ engines:
     checks:
       IrresponsibleModule:
         enabled: false
+      SubclassedFromCoreClass:
+        enabled: false
+      UtilityFunction:
+        enabled: false 
 
 ratings:
   paths:

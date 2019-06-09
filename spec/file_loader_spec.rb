@@ -4,7 +4,7 @@ RSpec.describe SmartStats::FileLoader do
       {
         valid: 'spec/fixtures/mock.log',
         invalid: 'spec/fixtures/mock.txt',
-        missing: 'spec/fixtures/missing.whatever',
+        missing: 'spec/fixtures/missing.whatever'
       }
     end
 
