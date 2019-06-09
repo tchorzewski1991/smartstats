@@ -1,0 +1,8 @@
+detectors:
+  IrresponsibleModule:
+    enabled: false
+  SubclassedFromCoreClass:
+    enabled: false
+
+exclude_paths:
+  - spec/

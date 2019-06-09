@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
-require "bundler/setup"
-require "smartstats"
+require 'bundler/setup'
+require 'smartstats'
 
-require "pry"
+require 'pry'
 Pry.start
