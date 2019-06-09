@@ -1,3 +1,5 @@
+<a href="https://codeclimate.com/github/tchorzewski1991/smartstats/maintainability"><img src="https://api.codeclimate.com/v1/badges/2ade2348dc8de81b93f6/maintainability" /></a>
+
 # SmartStats
 
 TODO: Add proper description
