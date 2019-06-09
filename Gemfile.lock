@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    smartstats (0.1.0)
+    smartstats (0.1.1)
       terminal-table (~> 1.8)
       thor (~> 0.20)
 
